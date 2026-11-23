@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Destination Quiz | Wanderly</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body>
+<header><nav aria-label="Main navigation"><a class="brand" href="index.html">✳ Wanderly</a><a href="index.html">Explore</a><a href="quiz.html" aria-current="page">Destination quiz ↗</a></nav></header>
+<main class="quiz-layout">
+<section class="quiz-intro"><p class="eyebrow">THE DESTINATION QUIZ</p><h1>Find your kind<br>of <em>getaway.</em></h1><p>Tell us what you enjoy, how long you have, and what you like to spend. We’ll match you with a place to start.</p><a href="index.html">← Back to exploring</a></section>
+<section class="quiz-panel" aria-label="Destination recommendation quiz">
+<form id="quiz">
+<fieldset><legend>What would you most like to do?</legend><label><input type="radio" name="activity" value="madeira" required> Hike along the coast</label><label><input type="radio" name="activity" value="kyoto"> Explore temples and gardens</label><label><input type="radio" name="activity" value="marrakech"> Browse markets and try local food</label></fieldset>
+<fieldset><legend>How much time do you have?</legend><label><input type="radio" name="duration" value="marrakech" required> 3–4 days</label><label><input type="radio" name="duration" value="madeira"> 5–7 days</label><label><input type="radio" name="duration" value="kyoto"> 8 days or more</label></fieldset>
+<fieldset><legend>What’s your spending style?</legend><label><input type="radio" name="budget" value="marrakech" required> Keep day-to-day costs low</label><label><input type="radio" name="budget" value="madeira"> Balance savings and splurges</label><label><input type="radio" name="budget" value="kyoto"> Budget extra for experiences</label></fieldset>
+<button class="pill" type="submit">Reveal my match ↗</button>
+</form>
+<div id="result" hidden tabindex="-1" aria-live="polite"></div>
+</section>
+</main>
+<footer><a class="brand" href="index.html">✳ Wanderly</a><span>Travel inspiration · Lab 5</span></footer>
+</body></html>
